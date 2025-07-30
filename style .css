@@ -1,0 +1,28 @@
+/*Gaya untuk seluruh halaman */
+body  {
+    font-family:'courier New',sans-serif; /*Bisa di ganti sesuai seler*/
+    background-color:  #e6e6fa;/*Warna ungu muda*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+/*Gaya untuk 'kartu' utama*/
+.profile-card {
+    background-color:white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+    text-align: center;
+}
+   /*gaya untuk gambar profil*/
+img {
+    border-radius: 50%;
+    border: 3px solid  #5f9ea0;
+}
+/*Gaya untuk link*/
+a{
+    text-decoration: none;
+    color: #1e90ff
+}
